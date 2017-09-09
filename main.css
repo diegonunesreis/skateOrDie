@@ -1,0 +1,34 @@
+.jumbotron {
+    text-align: center;
+    background: none;
+}
+
+body {
+/*    overflow: hidden;*/
+    overflow-x: hidden;
+}
+
+.sectionLight {
+    background-color: #eceeef;
+    padding: 2rem;
+}
+
+.sectionDark {
+    background-color: #cccccc;
+    padding: 2rem;
+}
+
+.first-shape {
+    display: block;
+}
+
+.coolStuffWrapper {
+    margin-top: 20px;
+}
+
+button.coolStuffBtn {
+    background-color: red;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+}
