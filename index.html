@@ -6,6 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Font Awesome Icons :) -->
+    <script src="https://use.fontawesome.com/46dbeaeccb.js"></script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap-4.0.0-beta-dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="bootstrap-4.0.0-beta-dist/css/bootstrap.min.css">
@@ -117,13 +120,151 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="coolStuffWrapper">
-                    <button type="button" class="btn btn-lg coolStuffBtn">Get Cool Stuff!</button>
+                    <button type="button" class="btn btn-lg coolStuffBtn" data-toggle="modal" data-target="#coolStuffModal">Get Cool Stuff!</button>
                 </div>
             </div>
         </div>
-
     </div>
 
+
+    <!--Section Three-->
+
+    <div class="sectionLight">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-4">
+                        <img class="img-fluid imgCenter" src="assets/kickflip.jpg">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <button type="button" class="btn btn-danger btn-lg btnCenter" data-toggle="modal" data-target=".kf-modal-lg">Kickflip</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4">
+                        <img class="img-fluid imgCenter" src="assets/360flip.jpg">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <button type="button" class="btn btn-danger btn-lg btnCenter" data-toggle="modal" data-target=".360-modal-md">360 Flip</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4">
+                        <img class="img-fluid imgCenter" src="assets/bscrook.jpg">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <button type="button" class="btn btn-danger btn-lg btnCenter" data-toggle="modal" data-target=".bscrook-modal-sm">BS Crook</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer bg-dark">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-lg-3">
+                    <img class="img-fluid footerImg" src="assets/KFS_LIGHT.png">
+                </div>
+                <div class="col-sm-12 col-lg-9 socialWrapper">
+                    <a href="https://facebook.com" target="_blank">
+                        <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                    <a href="https://plus.google.com" target="_blank">
+                        <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i></a>
+                    <a href="https://instagram.com" target="_blank">
+                        <i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Modal -->
+
+    <!-- Cool Stuff Modal -->
+    <div class="modal fade" id="coolStuffModal" tabindex="-1" role="dialog" aria-labelledby="coolStuffLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contentLabel">Get Exclusive Content</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <img class="img-fluid" src="assets/KFS_modal.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="modalFormWrapper">
+                                    <form>
+                                        <div class="form-group">
+                                            <label class="form-control-label" for="formName">What's your name?</label>
+                                            <input type="text" class="form-control" id="formName" placeholder="Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-control-label" for="formEmail">Where should we send your cool content?</label>
+                                            <input type="text" class="form-control" id="formEmail" placeholder="Email">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Kickflip Modal -->
+    <div class="modal fade kf-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZNLFDX1R6Zo?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+                </div>
+                <p>Kickflips are easy. Pop, flick, catch, land. #BOOM</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 360 Flip -->
+    <div class="modal fade 360-modal-md" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes?rel=0&amp;controls=1&amp;showinfo=0" allowfullscreen></iframe>
+                </div>
+                <p>360 flips are easy. Pop, scissor kick, catch, land. #BOOM</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- BS Crook -->
+    <div class="modal fade bscrook-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes?rel=0&amp;controls=1&amp;showinfo=0" allowfullscreen></iframe>
+                </div>
+                <p>Backside Crooks are sick! Nollie in nollie out! #BOOM</p>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
